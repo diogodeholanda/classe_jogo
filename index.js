@@ -1,3 +1,49 @@
+class heroi
+{
+   construtor(nome,idade,tipo,ataque)
+   {
+      this.nome = nome
+      this.idade = idade
+      this.tipo = tipo
+      this.ataque = ataque
+   }
+
+   let heroijogo = new heroi ("Rocket","10","ninja","")
+
+   escrever()
+   {
+      console.log(`O ${this.tipo} atacou usando ${this.ataque}`)
+   }
+   
+   atacar()
+   {
+      if (this.tipo == "mago")
+      {
+          this.ataque = "magia"
+      }
+      else if (this.tipo == "guerreiro")
+      {
+          this.ataque = "espada"
+      }
+      else if (this.tipo == "monge")
+      {
+          this.ataque = "artes marciais"
+      }
+      else if (this.tipo == "ninja")
+      {
+          this.ataque = "shuriken"
+      }
+      return this.ataque
+   }
+
+}
+
+
+
+
+
+
+
 let contador = 0
 
 let resultado = rankearSaldo(100,10)
