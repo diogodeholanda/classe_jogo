@@ -8,7 +8,7 @@ class heroi
       this.ataque = ataque
    }
 
-   let heroijogo = new heroi ("Rocket","10","ninja","")
+   let heroijogo = new heroi ("Rocket","20","ninja","")
 
    escrever()
    {
